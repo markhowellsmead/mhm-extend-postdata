@@ -2,7 +2,7 @@
 Automatically extends Post and Page data with an array containing all of the extra meta data pertinent to the $post object.
 
 ## Usage
-Install the plugin. The plugin hooks into `the_post()` and adds all post meta data to `$post->meta_data`.
+Install the plugin. The plugin hooks into `the_post()` and adds all post meta data to `$post->metadata`.
 
 ##Author
 Mark Howells-Mead | www.permanenttourist.ch/github | Since August 2015
