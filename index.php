@@ -27,7 +27,9 @@ class MHM_ExtendPostdata {
 	//////////////////////////////////////////////////
 	
 	public function extend_postdata($post) {
-		$post->metadata = get_post_meta ( $post->ID );
+		if( $post ){
+			$post->metadata = get_post_meta ( $post->ID );
+		}
 	}
 
 }
